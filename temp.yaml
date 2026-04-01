@@ -4,226 +4,218 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: Canada2-Mar16
-  type: ss
-  server: cam2.herse.me
-  port: 4922
-  cipher: aes-256-gcm
-  password: UWNQoEEsCKzbxa3h
-  udp: true
-- name: Canada1-Mar16
+- name: Canada1-Apr1
   type: ss
   server: cam1.herse.me
-  port: 4016
+  port: 5500
   cipher: aes-256-gcm
-  password: AHNqYW0wAbU9yl2v
+  password: xI06GmOApxsbZz8K
   udp: true
-- name: USA6-Mar16
+- name: Canada2-Apr1
   type: ss
-  server: usm6.herse.me
-  port: 4554
+  server: cam2.herse.me
+  port: 5056
   cipher: aes-256-gcm
-  password: 9D2P5yr4nONnJy5L
+  password: ABsFCm8Ox3GB3iGc
   udp: true
-- name: USA1-Mar16
-  type: ss
-  server: usm1.herse.me
-  port: 5463
-  cipher: aes-256-gcm
-  password: dbFuuf6KYhzhaS0v
-  udp: true
-- name: USA2-Mar16
+- name: USA2-Apr1
   type: ss
   server: usm2.herse.me
-  port: 4678
+  port: 5557
   cipher: aes-256-gcm
-  password: 4LoV18ip6PfChbN3
+  password: mq95cGkXAQA8Jsnt
   udp: true
-- name: USA3-Mar16
+- name: USA3-Apr1
   type: ss
   server: usm3.herse.me
-  port: 4281
+  port: 5028
   cipher: aes-256-gcm
-  password: dHQeFFuxpaiAXVOb
+  password: HLjFoHKyj3MSOr3g
   udp: true
-- name: USA10-Mar16
+- name: USA4-Apr1
   type: ss
-  server: usm10.herse.me
-  port: 4844
+  server: usm4.herse.me
+  port: 4179
   cipher: aes-256-gcm
-  password: v8V4C6r2QubDJHtF
+  password: gutqSy2sE5q3sdIm
   udp: true
-- name: HongKong1-Mar16
+- name: USA6-Apr1
+  type: ss
+  server: usm6.herse.me
+  port: 4374
+  cipher: aes-256-gcm
+  password: rJXdReRnh71G1xs9
+  udp: true
+- name: HongKong1-Apr1
   type: ss
   server: hkm1.herse.me
-  port: 4138
+  port: 4941
   cipher: aes-256-gcm
-  password: 80fpdJiN42YCuVyW
+  password: nUaqD1a0dTCKBREe
   udp: true
-- name: Russia1-Mar16
+- name: Russia1-Apr1
   type: ss
   server: rum1.herse.me
-  port: 5377
+  port: 5354
   cipher: aes-256-gcm
-  password: pOuVGPc8ezGF2e1N
+  password: VEZH1A9BQQeP1R4p
   udp: true
-- name: Russia2-Mar16
+- name: Russia2-Apr1
   type: ss
   server: rum2.herse.me
-  port: 5473
+  port: 5081
   cipher: aes-256-gcm
-  password: t3i7qQdtWbr1MHC3
+  password: Q8wMR0Mutwkf89w7
   udp: true
-- name: Russia3-Mar16
+- name: Russia3-Apr1
   type: ss
   server: rum3.herse.me
-  port: 4401
+  port: 4210
   cipher: aes-256-gcm
-  password: 7Y8hab2nhHMzG5DG
+  password: 1nSKcbJWkBxOvWmW
   udp: true
-- name: Russia4-Mar16
+- name: Russia4-Apr1
   type: ss
   server: rum4.herse.me
-  port: 5275
+  port: 4470
   cipher: aes-256-gcm
-  password: vcPy7URl5Ur5tOJk
+  password: aD9VQPtXtRfAwzpU
   udp: true
-- name: Russia5-Mar16
+- name: Russia5-Apr1
   type: ss
   server: rum5.herse.me
-  port: 4560
+  port: 4217
   cipher: aes-256-gcm
-  password: 1IIBFEPv0iBm35qQ
+  password: 3BRsvCmQZiFStAR1
   udp: true
-- name: Singapore1-Mar16
+- name: Singapore1-Apr1
   type: ss
   server: sgm1.herse.me
-  port: 5020
+  port: 5076
   cipher: aes-256-gcm
-  password: cFFuPl3utL1twln2
+  password: oFZ25WrGFDmJCy4o
   udp: true
-- name: Japan1-Mar16
+- name: Japan1-Apr1
   type: ss
   server: jpm1.herse.me
-  port: 5418
+  port: 5749
   cipher: aes-256-gcm
-  password: yRzcAcN9qq1ADOIa
+  password: BdAjktBBNRhHYzO5
   udp: true
-- name: UK1-Mar16
+- name: UK1-Apr1
   type: ss
   server: ukm1.herse.me
-  port: 4682
+  port: 5613
   cipher: aes-256-gcm
-  password: oGTWilxcJpXlR5Ey
+  password: 8bc1cbPFEnPr1eJL
   udp: true
-- name: Korea1-Mar16
+- name: Korea1-Apr1
   type: ss
   server: krm1.herse.me
-  port: 5161
+  port: 4093
   cipher: aes-256-gcm
-  password: kNVb7Ak0SxixI3gm
+  password: hyb7Fpzv4rpz3bhT
   udp: true
-- name: Australia1-Mar16
+- name: Australia1-Apr1
   type: ss
   server: aum1.herse.me
-  port: 5446
+  port: 4916
   cipher: aes-256-gcm
-  password: rYsM6ntYvUIQfiMK
+  password: VzLjnZIO22vr4oVF
   udp: true
-- name: France1-Mar16
+- name: France1-Apr1
   type: ss
   server: frm1.herse.me
-  port: 5616
+  port: 5755
   cipher: aes-256-gcm
-  password: XY96To4Pd08iNZPS
+  password: sCxKgd3h3KAZJgON
   udp: true
-- name: Germany1-Mar16
+- name: Germany1-Apr1
   type: ss
   server: dem1.herse.me
-  port: 4543
+  port: 4556
   cipher: aes-256-gcm
-  password: r7CD414o5RPgIQTm
+  password: GH9qe23nmu7kEwvz
   udp: true
-- name: India-Mar16
+- name: India-Apr1
   type: ss
   server: inm1.herse.me
-  port: 5536
+  port: 4462
   cipher: aes-256-gcm
-  password: NzZP9nQ1UymcYkxL
+  password: ThyuT0A7d2xfDp24
   udp: true
-- name: Spain-Mar16
+- name: Spain-Apr1
   type: ss
   server: esm1.herse.me
-  port: 5621
+  port: 5508
   cipher: aes-256-gcm
-  password: nZfBfkaRO6GhuBp9
+  password: y7QEzxpvlcvmm4eR
   udp: true
-- name: Italy-Mar16
+- name: Italy-Apr1
   type: ss
   server: itm1.herse.me
-  port: 4237
+  port: 4896
   cipher: aes-256-gcm
-  password: a6Lac6YAD8kBGfYB
+  password: 93KzgBJLocq9JDYQ
   udp: true
-- name: Vietnam-Mar16
+- name: Vietnam-Apr1
   type: ss
   server: vnm1.herse.me
-  port: 4304
+  port: 5533
   cipher: aes-256-gcm
-  password: BDOnmGd0aO505MGv
+  password: 33mdCCrm74RitsOB
   udp: true
-- name: Malaysia-Mar16
+- name: Malaysia-Apr1
   type: ss
   server: mym1.herse.me
-  port: 4691
+  port: 4933
   cipher: aes-256-gcm
-  password: du8Uq4uGpb0Hssjt
+  password: XdhXXBafHd3EJajD
   udp: true
-- name: Brazil-Mar16
+- name: Brazil-Apr1
   type: ss
   server: brm1.herse.me
-  port: 4845
+  port: 5125
   cipher: aes-256-gcm
-  password: HcdV2TBJtNCa6JL0
+  password: 8RMHfs8nj7t1nLBZ
   udp: true
-- name: South-Africa-Mar16
+- name: South-Africa-Apr1
   type: ss
   server: zam1.herse.me
-  port: 5960
+  port: 4267
   cipher: aes-256-gcm
-  password: vXbEYYl1xBbTDw7s
+  password: yZjLKqE2xO8a2Zm5
   udp: true
 proxy-groups:
 - name: Proxy
   type: select
   proxies:
-  - Canada2-Mar16
-  - Canada1-Mar16
-  - USA6-Mar16
-  - USA1-Mar16
-  - USA2-Mar16
-  - USA3-Mar16
-  - USA10-Mar16
-  - HongKong1-Mar16
-  - Russia1-Mar16
-  - Russia2-Mar16
-  - Russia3-Mar16
-  - Russia4-Mar16
-  - Russia5-Mar16
-  - Singapore1-Mar16
-  - Japan1-Mar16
-  - UK1-Mar16
-  - Korea1-Mar16
-  - Australia1-Mar16
-  - France1-Mar16
-  - Germany1-Mar16
-  - India-Mar16
-  - Spain-Mar16
-  - Italy-Mar16
-  - Vietnam-Mar16
-  - Malaysia-Mar16
-  - Brazil-Mar16
-  - South-Africa-Mar16
+  - Canada1-Apr1
+  - Canada2-Apr1
+  - USA2-Apr1
+  - USA3-Apr1
+  - USA4-Apr1
+  - USA6-Apr1
+  - HongKong1-Apr1
+  - Russia1-Apr1
+  - Russia2-Apr1
+  - Russia3-Apr1
+  - Russia4-Apr1
+  - Russia5-Apr1
+  - Singapore1-Apr1
+  - Japan1-Apr1
+  - UK1-Apr1
+  - Korea1-Apr1
+  - Australia1-Apr1
+  - France1-Apr1
+  - Germany1-Apr1
+  - India-Apr1
+  - Spain-Apr1
+  - Italy-Apr1
+  - Vietnam-Apr1
+  - Malaysia-Apr1
+  - Brazil-Apr1
+  - South-Africa-Apr1
   - DIRECT
 rules:
 - MATCH,Proxy
